@@ -5,7 +5,6 @@ include("labymod-api")
 include("labymod-common")
 
 // Proxies
-include("proxy:velocity")
 include("proxy:bungeecord")
 
 // Servers
