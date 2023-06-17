@@ -16,11 +16,6 @@ repositories {
     jcenter()
 
     maven {
-        name = "velocity-repository"
-        url = "https://repo.velocitypowered.com/snapshots/"
-    }
-
-    maven {
         name = "bungeecord-repository"
         url = "https://oss.sonatype.org/content/repositories/snapshots"
     }
@@ -62,11 +57,6 @@ dependencies {
         exclude group: "io.netty"
     }
     compile(project(":proxy:bungeecord")) {
-        exclude group: "com.google.code.gson"
-        exclude group: "com.google.guava"
-        exclude group: "io.netty"
-    }
-    compile(project(":proxy:velocity")) {
         exclude group: "com.google.code.gson"
         exclude group: "com.google.guava"
         exclude group: "io.netty"
