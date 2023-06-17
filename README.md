@@ -7,4 +7,33 @@ Our new Server API allows you to communicate between the LabyMod client and the 
 If you want to find out how our API works, visit https://docs.labymod.net/pages/server/introduction/
 
 This is a build for my own server.
-actionaction
+
+
+Creating Plugin with LabyMod API
+----------------
+
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+dependencies {
+    implementation 'com.github.LabyMod:labymod-server-api:Tag'
+}
+```
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.LabyMod</groupId>
+        <artifactId>labymod-server-api</artifactId>
+        <version>Tag</version>
+    </dependency>
+</dependencies>
+```
